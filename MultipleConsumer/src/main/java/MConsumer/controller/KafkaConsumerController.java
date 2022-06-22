@@ -53,8 +53,8 @@ public class KafkaConsumerController {
     }
     
     public AmazonKinesisFirehose getFirehoseClient(){ 	
-    	String accesskey="AKIATYHVOKP6VJB7YE5V";
-    	String secretkey="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";
+    	String accesskey="";
+    	String secretkey="";
         return AmazonKinesisFirehoseClientBuilder
                 .standard()
                 .withCredentials(new AWSStaticCredentialsProvider(new BasicAWSCredentials(accesskey, secretkey)))

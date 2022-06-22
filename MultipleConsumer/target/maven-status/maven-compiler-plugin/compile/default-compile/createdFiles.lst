@@ -1,0 +1,3 @@
+MConsumer\MConsumerApplication.class
+MConsumer\controller\KafkaConsumerController.class
+MConsumer\config\KafkaConsumerConfiguration.class

@@ -1,0 +1,24 @@
+{
+  "type": "record",
+  "namespace": "avro.consumer.model",
+  "name": "master_nf",
+  "doc": "Sample schema",
+  "fields": [
+    {
+      "name": "disposition",
+      "type": ["null","string"]
+    },
+    {
+      "name": "contract_status",
+      "type": ["null","string"]
+    },
+    {
+      "name": "insurence_letter",
+      "type": ["null","int"]
+    },
+    {
+      "name": "booking_date",
+      "type": ["null",{"type": "long", "logicalType": "date"}]
+    }
+  ]
+}
